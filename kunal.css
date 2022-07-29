@@ -12,15 +12,19 @@
     background-color:#25F9CF ;
     border-radius:4px ;
 }
+
 .navbar ul
 {
     overflow: auto;
 }
+
+
 .navbar li{
     float: right;
     list-style: none;
     margin:4px;
 }
+
 .navbar li a
 {
     padding :3px 3px;
@@ -38,6 +42,8 @@
     border-radius: 4px;
 
 }
+
+
 .font1
 {
     background-color: transparent;
@@ -46,6 +52,7 @@
     font-style: initial;
    font-weight: bold;
 }
+
 .navbar li a.active 
 {
     color: rgb(4, 112, 207);
