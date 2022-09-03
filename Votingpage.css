@@ -1,4 +1,4 @@
-.designnav{
+#navbar{
     padding: 10px 6px 0px 6px;
     border-top: solid 10px #A47E3B;
     border-bottom: solid 10px #A47E3B;
@@ -7,7 +7,7 @@
 }
 
 .Navigationpane{
-    height: 105px;
+    height: 6.6rem;
     border-radius: 3px;
     background-color: #E6B325;
     overflow: hidden;
@@ -27,7 +27,7 @@
     margin-top: 40px;
 }
 
-.linktag{
+#PageLinks a{
     margin-left: 2px;
     padding: 10px 20px;
     background-color: black;
@@ -35,7 +35,7 @@
     text-decoration: none;
 }
 
-a.linktag:hover{
+#PageLinks a:hover{
     background-color: burlywood;
     color: darkslateblue;
 }
