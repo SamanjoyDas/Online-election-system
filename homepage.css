@@ -1,0 +1,170 @@
+#navbar{
+    padding: 10px 6px 0px 6px;
+    border-top: solid 10px #A47E3B;
+    border-bottom: solid 10px #A47E3B;
+    border-radius: 10px;
+    height: 114px;
+}
+
+.Navigationpane{
+    height: 6.6rem;
+    border-radius: 3px;
+    background-color: #E6B325;
+    overflow: hidden;
+}
+
+#running-text{
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.2);
+    color: aliceblue;
+    font-size: larger;
+}
+
+#PageLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+#PageLinks a{
+    margin-left: 2px;
+    padding: 10px 20px;
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#PageLinks a:hover{
+    background-color: burlywood;
+    color: darkslateblue;
+}
+
+#storycontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+#story{
+    padding: 2rem 1rem;
+    height: fit-content;
+    width: 40rem;
+    border: solid 2px black;
+    border-radius: 0.5rem;
+}
+
+#storyhead{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: darkgray;
+    border-radius: 0.5rem;
+}
+
+#storyimg{
+    width: 33%;
+    height: auto;
+}
+
+.separate{
+    margin: 3rem auto;
+    width: 83%;
+    height: 0.2rem;
+    background-color: orange;
+}
+
+.userbtn{
+    padding: 0.4rem 1.3rem;
+    margin: 0rem 0rem 0rem 3rem;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 0.2rem;
+}
+
+.userbtn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between ;
+}
+
+#regform{
+    margin: 1rem 0rem 0rem 2rem ;
+    padding: 1rem 1rem;
+    height: auto;
+    width: auto;
+}
+
+#regform p{
+    font-weight: bold;
+}
+
+#regform label{
+    font-weight: bold;
+}
+
+#regform input{
+    padding: 0.3rem 1rem;
+    margin-bottom: 1rem;
+}
+
+#btnsub{
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+    border-radius: 0.2rem;
+}
+
+#btnres{
+    cursor: pointer;
+    color: white;
+    background-color: mediumslateblue;
+    border-radius: 0.2rem;    
+}
+
+#verify{
+    margin: 1rem 4rem 0rem 0rem ;
+    padding: 1rem 3rem;
+    border: solid 1px black;
+    height: auto;
+    width: auto;
+}
+
+#imgverify{
+    width: 50%;
+    height: auto;
+}
+
+.quotescont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote{
+    width: 22rem;
+    height: auto;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 2rem 2rem;
+    background-color: orangered;
+}
+
+#infoimg{
+    width: 10%;
+}
+
+.socialmedia{
+    width: 20%;
+    height: auto;
+}
