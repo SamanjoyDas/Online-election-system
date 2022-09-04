@@ -34,13 +34,13 @@ body {
   transform-origin: center;
 }
 .u-hover--sparkle::before {
-  border-top: 0.2em solid #ffbb00;
-  border-bottom: 0.2em solid #ffbb00;
+  border-top: 0.2em solid #961e1e;
+  border-bottom: 0.2em solid #961e1e;
   transform: scale3d(0, 1, 1);
 }
 .u-hover--sparkle::after {
-  border-left: 0.2em solid #ffbb00;
-  border-right: 0.2em solid #ffbb00;
+  border-left: 0.2em solid #961e1e;
+  border-right: 0.2em solid #961e1e;
   transform: scale3d(1, 0, 1);
 }
 .u-hover--sparkle:hover::before, .u-hover--sparkle:hover::after {
