@@ -35,10 +35,7 @@
     <div id="storycontainer">
         <div id="story">
             <div id="storyhead">OUR STORY</div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            tenetur quos magnam tempora aspernatur dignissimos minima laborum iusto
-            culpa, inventore, quae repudiandae suscipit ipsam cupiditate unde.
-            Architecto consequatur facere voluptates.</p> 
+            <p>Elections are an essential part of of any democracy. It gives the citizens the power to choose the person or party, who will lead the country. If the process of election of didn't exist, the country would have a monarchy or authoritarianism regime. The vote process effectively removes this problem.</p> 
         </div>
         
         <img src="Images/img1.jpg" alt="img1" id="storyimg"/>
@@ -56,12 +53,12 @@
         <div id="regform">
             <p>NEW USER? REGISTER NOW</p>
             
-            <form action="#">
-             <label for="UserName" id="usrname">USERNAME</label><br>
-             <input type="text" placeholder="Enter your username" id="inusrname"><br>
+            <form name="form1" action="#">
+             <label for="UserName" id="usrname">EMAIL</label><br>
+             <input type="text" placeholder="Enter your E-mail" name="email" id="inusrname"><br>
              <label for="Password" id="pass">PASSWORD</label><br>
-             <input type="password" placeholder="Enter your password" id="inpass"><br>
-             <input type="submit" id="btnsub" value="LOGIN">
+             <input type="password" placeholder="Enter your password" name="pass" id="inpass"><br>
+             <input type="submit" id="btnsub" onclick="ValidateEmail(document.form1.email, document.form1.pass)" value="LOGIN">
              <input type="reset" id="btnres" value="CLEAR">
             </form>
 
